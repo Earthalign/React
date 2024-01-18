@@ -1,0 +1,13 @@
+basic:
+  namespace: ara
+
+deployment:
+  ara:
+    image: docker.io/recordsansible/ara-api
+    tag: centos9-source-latest
+
+service:
+  type: LoadBalancer
+
+env:
+  ARA_ALLOWED_HOSTS: "['*']"
