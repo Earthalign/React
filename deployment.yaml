@@ -9,11 +9,11 @@ spec:
   replicas: 1
   selector:
     matchLabels:
-      app: witek-react-app
+      app: witek-cluster-train
   template:
     metadata:
       labels:
-        app: witek-react-app
+        app: witek-cluster-train
     spec:
       containers:
       - name: webserver-simple
