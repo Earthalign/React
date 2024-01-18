@@ -4,7 +4,7 @@ metadata:
   name: simple-service
 spec:
   selector:
-    app: witek-react-app
+    app: witek-cluster-train
   ports:
       - targetPort: 8080
         protocol: TCP
